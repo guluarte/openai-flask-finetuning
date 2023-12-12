@@ -58,7 +58,7 @@ def prepare():
 
     os.system("mkdir -p {}".format(base_dir))
 
-    train_file_base = "coaching-{}".format(str(user_id))
+    train_file_base = "dataset-{}".format(str(user_id))
     train_file = "{}/{}.csv".format(base_dir, train_file_base)
 
     # Create an S3 client
